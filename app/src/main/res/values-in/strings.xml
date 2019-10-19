@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Title-->
+    <string name="app_name">MovieCatalog API</string>
+
+    <!--Tab Title-->
+    <string name="tab_text_1">FILM</string>
+    <string name="tab_text_2">ACARA TV</string>
+
+    <!--Action Button-->
+    <string name="settings_language">Ganti Bahasa</string>
+    <string name="settings_about">Tentang</string>
+
+    <!--Snackbar Favorite Action-->
+    <string name="favorite_added"> Ditambahkan ke Favorit</string>
+    <string name="favorite_removed"> Dihapus dari Favorit</string>
+
+    <!--About-->
+    <string name="about_api">Produk ini menggunakan API TMDb tetapi tidak didukung atau disertifikasi oleh TMDb.</string>
+    <string name="about_purpose">Produk ini dibuat untuk tujuan pendidikan.</string>
+
+    <!--Widget-->
+    <string name="appwidget_title">MyCatalog</string>
+    <string name="appwidget_nodata">Tidak ada data</string>
+
+    <!--Header-->
+    <string name="description">Deskripsi</string>
+    <string name="title_activity_detail">AktivitasDetail</string>
+    <string name="title_activity_favorite">Favorit</string>
+    <string name="title_activity_search_movies">Pencarian Film</string>
+    <string name="title_activity_search_tv">Pencarian Acara Tv</string>
+    <string name="title_activity_settings">Pengaturan</string>
+
+    <!-- Preference Titles -->
+    <string name="reminder_header">Pengingat</string>
+    <string name="language_header">Bahasa</string>
+
+    <!-- Preference List -->
+    <string name="release_reminder_title">Pengingat Rilis</string>
+    <string name="release_reminder_summary_on">
+        Pengingat menunjukkan film yang rilis hari ini setiap jam 8AM.</string>
+    <string name="release_reminder_summary_off">
+        Pengingat tidak menunjukkan film yang rilis hari ini.</string>
+    <string name="daily_reminder_title">Pengingat Harian</string>
+    <string name="daily_reminder_summary">
+        Pengingat untuk membuka aplikasi ini setiap jam 7AM.
+    </string>
+    <string name="release_notification_title">Rilis hari ini</string>
+    <string name="release_notification_desc">baru saja dirilis. Ayo lihat!</string>
+    <string name="daily_notification_title">Pengingat</string>
+    <string name="daily_notification_desc">Jangan lupa untuk mengecek app kami!</string>
+    <string name="change_language_title">Ganti Bahasa</string>
+
+    <string name="poster">Poster</string>
+</resources>

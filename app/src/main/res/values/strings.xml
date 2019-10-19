@@ -1,0 +1,61 @@
+<resources>
+    <!--App name / Label -->
+    <string name="app_name">MovieCatalog API</string>
+
+    <!--Tab Title-->
+    <string name="tab_text_1">MOVIES</string>
+    <string name="tab_text_2">TV SHOWS</string>
+
+    <!--Action Button-->
+    <string name="settings_language">Change Language</string>
+    <string name="settings_about">About</string>
+
+    <!--Snackbar Favorite Action-->
+    <string name="favorite_added"> Added to Favorite</string>
+    <string name="favorite_removed"> Removed from Favorite</string>
+
+    <!--About-->
+    <string name="about_api">This product uses the TMDb API but is not endorsed or certified by TMDb.</string>
+    <string name="about_purpose">This product has been made for educational purpose.</string>
+
+    <!--Widget-->
+    <string name="appwidget_title">MyCatalog</string>
+    <string name="appwidget_nodata">No data</string>
+
+    <!-- Header -->
+    <string name="description">Description</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_favorite">Favorite</string>
+    <string name="title_activity_search_movies">Search Movies</string>
+    <string name="title_activity_search_tv">Search Tvshows</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="reminder_header">Reminder</string>
+    <string name="language_header">Language</string>
+
+    <!-- Preference Lists -->
+    <string name="release_reminder_title">Release Reminder</string>
+    <string name="release_reminder_summary_on">
+        Reminder showing the movie that released today at every 8AM.</string>
+    <string name="release_reminder_summary_off">
+        Reminder doesn\'t showing the movie that released today.</string>
+    <string name="daily_reminder_title">Daily Reminder</string>
+    <string name="daily_reminder_summary">
+        Reminder to open this application at every 7AM.
+    </string>
+    <string name="release_notification_title">Release now</string>
+    <string name="release_notification_desc">has just released now! Let\'s see!</string>
+    <string name="daily_notification_title">Reminder</string>
+    <string name="daily_notification_desc">Don\'t forget to check our app!</string>
+    <string name="change_language_title">Change Language</string>
+
+    <!-- Preference Key -->
+    <string name="key_cancel_daily" translatable="false">daily</string>
+    <string name="key_cancel_release" translatable="false">release</string>
+    <string name="key_change_language" translatable="false">change_language</string>
+    <string name="key_reminder_daily" translatable="false">daily_reminder</string>
+    <string name="key_reminder_release" translatable="false">release_reminder</string>
+
+    <string name="poster">Poster</string>
+</resources>

@@ -1,0 +1,56 @@
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/reminder_header">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            app:key="@string/key_reminder_release"
+            app:title="@string/release_reminder_title"
+            app:summaryOff="@string/release_reminder_summary_off"
+            app:summaryOn="@string/release_reminder_summary_on"/>
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            app:key="@string/key_reminder_daily"
+            app:title="@string/daily_reminder_title"
+            app:summary="@string/daily_reminder_summary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/language_header">
+
+        <Preference
+            app:key="@string/key_change_language"
+            app:title="@string/change_language_title">
+            <intent android:action="android.settings.LOCALE_SETTINGS"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_about">
+
+        <Preference
+            app:key="about"
+            android:title="@string/settings_about">
+            <intent android:action="android.intent.action.app.AboutActivity"/>
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

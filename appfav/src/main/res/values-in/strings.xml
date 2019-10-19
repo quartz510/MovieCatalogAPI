@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_text_1">FILM</string>
+    <string name="tab_text_2">ACARA TV</string>
+
+    <string name="settings_language">Ganti Bahasa</string>
+    <string name="settings_about">Tentang</string>
+    <string name="about_api">Produk ini menggunakan API TMDb tetapi tidak didukung atau disertifikasi oleh TMDb.</string>
+    <string name="about_purpose">Produk ini dibuat untuk tujuan pendidikan.</string>
+</resources>

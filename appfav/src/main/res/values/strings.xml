@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">MovieCatalogFaV</string>
+    <string name="tab_text_1">Movie</string>
+    <string name="tab_text_2">Tv Show</string>
+
+    <string name="settings_language">Change Language</string>
+
+    <string name="settings_about">About</string>
+    <string name="about_api">This product uses the TMDb API but is not endorsed or certified by TMDb.</string>
+    <string name="about_purpose">This product has been made for educational purpose.</string>
+</resources>
